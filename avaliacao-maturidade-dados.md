@@ -44,24 +44,7 @@ Cada área de gestão de dados é avaliada em uma escala de **1 a 5**, conforme 
 ## 📈 Gráfico de Maturidade (Visual)
 
 ```
-        Governança (4)
-             ▲
-             |
-Qualidade(2) |     Arquitetura (2)
-      ●      |      ●
-             |
-Metadados(2) |     Modelagem (2)
-      ●      |      ●
-             |
-    DW/BI(5) |     Armazenamento (3)
-         ●   |   ●
-             |
-Master Data(3)   Segurança (4)
-        ●         ●
-             |
-Documentos(4)|   Integração (3)
-        ●    |    ●
-             ▼
+![Gráfico Radar de Maturidade de Dados](grafico_radar.jpg)
 ```
 
 ### Pontuação Média: **3.1/5.0** - Nível **DEFINIDO**
