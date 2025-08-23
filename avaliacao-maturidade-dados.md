@@ -20,7 +20,6 @@ Cada área de gestão de dados é avaliada em uma escala de **1 a 5**, conforme 
 - **4 - Gerenciado**: Processos monitorados e controlados  
 - **5 - Otimizado**: Melhoria contínua e excelência na execução
 
-
 ---
 
 ## 📋 Resultado da Avaliação - TJGO
@@ -44,7 +43,6 @@ Cada área de gestão de dados é avaliada em uma escala de **1 a 5**, conforme 
 ## 📈 Gráfico de Maturidade (Visual)
 
 ![Gráfico Radar de Maturidade de Dados](grafico_radar.png)
-
 
 ### Pontuação Média: **3.1/5.0** - Nível **DEFINIDO**
 
@@ -138,5 +136,8 @@ Cada área de gestão de dados é avaliada em uma escala de **1 a 5**, conforme 
 - **24h** máximo para detectar problemas de qualidade
 
 ---
+## 📚 Referências e Recursos
 
-*Avaliação realizada seguindo metodologia DMBoK v2 - Data Management Body of Knowledge*
+### Links Úteis
+- [DMBoK v2 - Data Management Guide](https://www.dama.org/cpages/body-of-knowledge)
+- [LGPD - Lei Geral de Proteção de Dados](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
