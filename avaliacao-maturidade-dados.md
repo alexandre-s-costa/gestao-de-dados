@@ -45,6 +45,7 @@ Cada área de gestão de dados é avaliada em uma escala de **1 a 5**, conforme 
 
 ```
 ![Gráfico Radar de Maturidade de Dados](grafico_radar.jpg)
+![Gráfico](grafico_radar.png)
 ```
 
 ### Pontuação Média: **3.1/5.0** - Nível **DEFINIDO**
