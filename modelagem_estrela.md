@@ -40,56 +40,7 @@ Modelo dimensional otimizado para análises de negócio. Contém as tabelas fato
 
 ## Diagrama do Modelo Estrela
 
-```
-                    DIM_TEMPO
-                    ┌─────────────────┐
-                    │ SK_TEMPO        │
-                    │ DATA_COMPLETA   │
-                    │ ANO             │
-                    │ MES             │
-                    │ TRIMESTRE       │
-                    │ SEMESTRE        │
-                    └─────────────────┘
-                           │
-                           │
-    DIM_COMARCA            │            DIM_CATEGORIA_PROCESSO
-    ┌─────────────────┐    │    ┌─────────────────────────────┐
-    │ SK_COMARCA      │    │    │ SK_CATEGORIA                │
-    │ COD_COMARCA     │    │    │ COD_ASSUNTO                 │
-    │ NOME_COMARCA    │    │    │ DESC_ASSUNTO                │
-    │ CIDADE          │    │    │ CLASSE_PROCESSUAL           │
-    │ REGIAO          │    │    │ AREA_DIREITO                │
-    │ CEP             │────┼────│ COMPLEXIDADE                │
-    └─────────────────┘    │    └─────────────────────────────┘
-                           │
-                    ┌─────────────────┐
-                    │  FATO_PROCESSOS │
-                    │                 │
-                    │ SK_TEMPO        │
-                    │ SK_COMARCA      │
-                    │ SK_CATEGORIA    │
-                    │ SK_VARA         │
-                    │ SK_STATUS       │
-                    │                 │
-                    │ QTD_PROCESSOS   │
-                    │ VALOR_CAUSA     │
-                    │ DIAS_TRAMITACAO │
-                    │ QTD_MOVIMENTOS  │
-                    │ PRAZO_LEGAL     │
-                    │ CUSTAS_PROC     │
-                    └─────────────────┘
-                           │
-                           │
-    DIM_VARA               │              DIM_STATUS
-    ┌─────────────────┐    │    ┌─────────────────────┐
-    │ SK_VARA         │    │    │ SK_STATUS           │
-    │ COD_VARA        │    │    │ COD_STATUS          │
-    │ NOME_VARA       │    │    │ DESC_STATUS         │
-    │ TIPO_VARA       │────┼────│ FASE_PROCESSUAL     │
-    │ INSTANCIA       │    │    │ STATUS_ATIVO        │
-    └─────────────────┘    │    └─────────────────────┘
-                           │
-```
+![Esquema Estrela (Star Schema)](modelagem_estrela.png)
 
 ## Especificação das Dimensões
 
