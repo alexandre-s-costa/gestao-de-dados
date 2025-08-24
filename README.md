@@ -1,13 +1,8 @@
-# Gestão de Dados - UFG Residência em TI
+# Gestão de Dados - PRTI UFG
 
-**Desenvolvido como parte da disciplina de Gestão de Dados da Residência em TI - UFG**  
-*Exercício acadêmico com fins educacionais*
-
-Repositório para arquivos da disciplina de **Gestão de Dados** desenvolvida dentro da **Residência em TI pela Universidade Federal de Goiás (UFG)**.
+Repositório para arquivos da disciplina de **Gestão de Dados** desenvolvida dentro do **Programa de Residência em TI (PRTI) pela Universidade Federal de Goiás (UFG)**.
 
 > ⚠️ **Aviso Legal**: Este projeto **não representa a visão oficial** do Tribunal de Justiça do Estado de Goiás (TJGO), **nem foi elaborado por pessoa vinculada à referida instituição.** Trata-se de um **exercício teórico e independente**, produzido com fins acadêmicos e exploratórios por alguém sem qualquer ligação com o TJGO.
-
----
 
 ## Contexto Acadêmico
 
@@ -16,9 +11,6 @@ Repositório para arquivos da disciplina de **Gestão de Dados** desenvolvida de
 - Disciplina: Gestão de Dados
 - Nível: Pós-graduação
 - E-mail: alexandre_silva_costa@discente.ufg.br
-
----
-
 
 ## Estrutura do Repositório
 
